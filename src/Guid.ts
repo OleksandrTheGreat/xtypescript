@@ -1,8 +1,8 @@
 export type Guid = string;
 
-export class xGuid {
+export class GUID {
 
-  static NewGuid() : Guid {
+  static New() : Guid {
     return this.s4() + this.s4() + '-' + this.s4() + '-' + this.s4() + '-' + this.s4() + '-' + this.s4() + this.s4() + this.s4();
   }
 

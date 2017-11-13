@@ -1,6 +1,6 @@
-import { Guid, xGuid } from "./Guid";
+import { Guid, GUID } from "./Guid";
 
 export {
   Guid,
-  xGuid
+  GUID
 }
